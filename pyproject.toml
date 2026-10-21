@@ -7,7 +7,7 @@ name = "reliable-tool-ledger-benchmark"
 version = "0.1.0"
 description = "A reproducible SWE-agent coding evaluation task"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = ["streamlit>=1.32,<2"]
 
 [project.optional-dependencies]
 test = ["pytest>=7,<10"]
