@@ -1,5 +1,7 @@
 # Agent Benchmark: Reliable Tool-Call Ledger
 
+[![Python Tests](https://github.com/kolawolepeter65-ai/reliable-tool-ledger-benchmark/actions/workflows/tests.yml/badge.svg)](https://github.com/kolawolepeter65-ai/reliable-tool-ledger-benchmark/actions/workflows/tests.yml)
+
 **[▶ Try the live Streamlit demo](https://reliable-tool-ledger-benchmark-cpjheacqbbygrnkllwme6v.streamlit.app/)**
 
 An original, self-contained Python coding benchmark for software-engineering agents. Implement an **event-sourced tool-call ledger** robust to duplicate events, out-of-order arrivals, and conflicting outcomes.
