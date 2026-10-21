@@ -4,6 +4,19 @@ An original, self-contained Python coding benchmark for software-engineering age
 
 **Skills:** task specification, test-driven development, Python, deterministic evaluation, adversarial tests, Docker, and software-agent reliability.
 
+## Interactive demo
+
+This repository includes a Streamlit companion app for exploring event reconciliation with example cases and editable JSON.
+
+**Deploy:** Open [Streamlit Community Cloud](https://share.streamlit.io/), create a new app from `kolawolepeter65-ai/reliable-tool-ledger-benchmark`, select branch `main`, and choose entry point `app.py`. The host will install dependencies using `requirements.txt`. Do not mistake the deployed demo for an autonomous agent; it illustrates the benchmark's reference logic.
+
+Run the demo locally:
+
+```bash
+python -m pip install -e .
+streamlit run app.py
+```
+
 ## Run
 
 ```bash
