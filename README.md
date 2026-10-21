@@ -1,5 +1,7 @@
 # Agent Benchmark: Reliable Tool-Call Ledger
 
+**[▶ Try the live Streamlit demo](https://reliable-tool-ledger-benchmark-cpjheacqbbygrnkllwme6v.streamlit.app/)**
+
 An original, self-contained Python coding benchmark for software-engineering agents. Implement an **event-sourced tool-call ledger** robust to duplicate events, out-of-order arrivals, and conflicting outcomes.
 
 **Skills:** task specification, test-driven development, Python, deterministic evaluation, adversarial tests, Docker, and software-agent reliability.
@@ -8,7 +10,9 @@ An original, self-contained Python coding benchmark for software-engineering age
 
 This repository includes a Streamlit companion app for exploring event reconciliation with example cases and editable JSON.
 
-**Deploy:** Open [Streamlit Community Cloud](https://share.streamlit.io/), create a new app from `kolawolepeter65-ai/reliable-tool-ledger-benchmark`, select branch `main`, and choose entry point `app.py`. The host will install dependencies using `requirements.txt`. Do not mistake the deployed demo for an autonomous agent; it illustrates the benchmark's reference logic.
+**Live app:** [Open the interactive benchmark](https://reliable-tool-ledger-benchmark-cpjheacqbbygrnkllwme6v.streamlit.app/).
+
+**Deploy your own copy:** Open [Streamlit Community Cloud](https://share.streamlit.io/), create a new app from `kolawolepeter65-ai/reliable-tool-ledger-benchmark`, select branch `main`, and choose entry point `app.py`. The host will install dependencies using `requirements.txt`. Do not mistake the deployed demo for an autonomous agent; it illustrates the benchmark's reference logic.
 
 Run the demo locally:
 
